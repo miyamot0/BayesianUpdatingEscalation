@@ -8,5 +8,8 @@ Warranted beliefs, in Bayesian thinking, refer to the likelihood that an action 
 ##Purpose  
 This repository serves as sample usage of Bayesian Updating to model escalation/persistence in no-win situations.  
 
-##Utilized works  
-<a href="http://stackoverflow.com/questions/14420754/isaac-cipher-in-php/14428399#14428399">ISAAC, PHP-port by Illmari Karonen (original work by Bob Jenkins)</a></p>  
+##Works utilized elsewhere
+[ISAAC, PHP-port by Illmari Karonen original work by Bob Jenkins - unmodified; shared on Stack Overflow](http://stackoverflow.com/questions/14420754/isaac-cipher-in-php/14428399#14428399)
+
+##License
+This project is licensed under the GPL-V2 license.
