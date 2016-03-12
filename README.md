@@ -13,3 +13,7 @@ This repository serves as sample usage of Bayesian Updating to model escalation/
 
 ##License
 This project is licensed under the GPL-V2 license.
+
+Developed by Shawn Patrick Gilroy, PhD NCSP BCBA  
+Published in Journal of Behavioural Processes (Shawn Gilroy, Donald Hantula)  
+Temple University, 2015  
