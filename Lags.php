@@ -132,10 +132,12 @@ public function nextTwoLagPredictionV($mGoltz = null, $sizeOfArray = null)
 	$bb=0;
 	$gb=0;
 	$bg=0;
+
 	$ggWin=0;
 	$bbWin=0;
 	$gbWin=0;
 	$bgWin=0;
+
 	$ggLoss=0;
 	$bbLoss=0;
 	$gbLoss=0;
@@ -217,9 +219,32 @@ public function nextThreeLagPredictionV($mGoltz = null, $sizeOfArray = null)
 {
 	$mString[3];
 
-	$ggg=0;$ggb=0;$gbg=0;$gbb=0;$bgg=0;$bgb=0;$bbg=0;$bbb=0;
-	$gggWin=0;$ggbWin=0;$gbgWin=0;$gbbWin=0;$bggWin=0;$bgbWin=0;$bbgWin=0;$bbbWin=0;
-	$gggLoss=0;$ggbLoss=0;$gbgLoss=0;$gbbLoss=0;$bggLoss=0;$bgbLoss=0;$bbgLoss=0;$bbbLoss=0;
+	$ggg=0;
+	$ggb=0;
+	$gbg=0;
+	$gbb=0;
+	$bgg=0;
+	$bgb=0;
+	$bbg=0;
+	$bbb=0;
+
+	$gggWin=0;
+	$ggbWin=0;
+	$gbgWin=0;
+	$gbbWin=0;
+	$bggWin=0;
+	$bgbWin=0;
+	$bbgWin=0;
+	$bbbWin=0;
+
+	$gggLoss=0;
+	$ggbLoss=0;
+	$gbgLoss=0;
+	$gbbLoss=0;
+	$bggLoss=0;
+	$bgbLoss=0;
+	$bbgLoss=0;
+	$bbbLoss=0;
 
 	$i=0;
 
@@ -348,17 +373,56 @@ public function nextFourLagPredictionV($mGoltz = null, $sizeOfArray = null)
 {
 	$mString[4];
 
-	$bbbb = 0;$bbbg = 0;$bbgb = 0;$bbgg = 0;$bgbb = 0;$bgbg = 0;$bggb = 0;
-	$bggg = 0;$gbbb = 0;$gbbg = 0;$gbgb = 0;$gbgg = 0;$ggbb = 0;$ggbg = 0;
-	$gggb = 0;$gggg = 0;
-	$bbbbWin = 0;$bbbgWin = 0;$bbgbWin = 0;$bbggWin = 0;$bgbbWin = 0;
-	$bgbgWin = 0;$bggbWin = 0;$bgggWin = 0;$gbbbWin = 0;$gbbgWin = 0;
-	$gbgbWin = 0;$gbggWin = 0;$ggbbWin = 0;$ggbgWin = 0;$gggbWin = 0;
+	$bbbb = 0;
+	$bbbg = 0;
+	$bbgb = 0;
+	$bbgg = 0;
+	$bgbb = 0;
+	$bgbg = 0;
+	$bggb = 0;
+	$bggg = 0;
+	$gbbb = 0;
+	$gbbg = 0;
+	$gbgb = 0;
+	$gbgg = 0;
+	$ggbb = 0;
+	$ggbg = 0;
+	$gggb = 0;
+	$gggg = 0;
+
+	$bbbbWin = 0;
+	$bbbgWin = 0;
+	$bbgbWin = 0;
+	$bbggWin = 0;
+	$bgbbWin = 0;
+	$bgbgWin = 0;
+	$bggbWin = 0;
+	$bgggWin = 0;
+	$gbbbWin = 0;
+	$gbbgWin = 0;
+	$gbgbWin = 0;
+	$gbggWin = 0;
+	$ggbbWin = 0;
+	$ggbgWin = 0;
+	$gggbWin = 0;
 	$ggggWin = 0;
-	$bbbbLoss = 0;$bbbgLoss = 0;$bbgbLoss = 0;$bbggLoss = 0;$bgbbLoss = 0;
-	$bgbgLoss = 0;$bggbLoss = 0;$bgggLoss = 0;$gbbbLoss = 0;
-	$gbbgLoss = 0;$gbgbLoss = 0;$gbggLoss = 0;$ggbbLoss = 0;
-	$ggbgLoss = 0;$gggbLoss = 0;$ggggLoss = 0;
+	
+	$bbbbLoss = 0;
+	$bbbgLoss = 0;
+	$bbgbLoss = 0;
+	$bbggLoss = 0;
+	$bgbbLoss = 0;
+	$bgbgLoss = 0;
+	$bggbLoss = 0;
+	$bgggLoss = 0;
+	$gbbbLoss = 0;
+	$gbbgLoss = 0;
+	$gbgbLoss = 0;
+	$gbggLoss = 0;
+	$ggbbLoss = 0;
+	$ggbgLoss = 0;
+	$gggbLoss = 0;
+	$ggggLoss = 0;
 
 	$i = 0;
 
@@ -559,7 +623,6 @@ public function nextFourLagPredictionV($mGoltz = null, $sizeOfArray = null)
 */
 public function getTwoLaggedCounts($mSequence = null)
 {
-
 	$values = array();
 	$mString;
 
