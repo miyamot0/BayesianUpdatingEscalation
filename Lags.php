@@ -4,9 +4,6 @@
 *	Bayesian Updating applied to sequential learning tasks.
 *	Extension of Sonia Goltz's work on sequence learning and escalation/persistence
 *
-*	CSPRNG derived from ISAAC, as shared by user Ilmari Karonen at:
-*	http://stackoverflow.com/questions/14420754/isaac-cipher-in-php
-*
 *	Temple University; Psychology Department
 */
 
