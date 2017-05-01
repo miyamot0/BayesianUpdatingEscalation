@@ -12,8 +12,8 @@ This repository serves as sample usage of Bayesian Updating to model escalation/
 [ISAAC, PHP-port by Illmari Karonen original work by Bob Jenkins - unmodified; shared on Stack Overflow](http://stackoverflow.com/questions/14420754/isaac-cipher-in-php/14428399#14428399)
 
 ##License
-This project is licensed under the GPL-V2 license.
+This project is licensed under the GPL-V2+ license.
 
-Developed by Shawn Patrick Gilroy, PhD NCSP BCBA  
+Developed by Shawn Patrick Gilroy, PhD NCSP BCBA-D
 Published in Journal of Behavioural Processes (Shawn Gilroy, Donald Hantula)  
-Temple University, 2015  
+Temple University, 2016
